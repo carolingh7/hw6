@@ -7,7 +7,6 @@ window.addEventListener('DOMContentLoaded', async function(event) {
     let movies = await response.json()
     console.log(movies)
 
-    
     let moviesList = movies.results
     console.log(moviesList.length)
 
@@ -49,8 +48,6 @@ window.addEventListener('DOMContentLoaded', async function(event) {
 
         })
 
-
     }
-  
-    
+      
   })
